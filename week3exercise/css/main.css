@@ -1,0 +1,29 @@
+nav:hover {
+    background-color: red;
+    font-size: 2em;
+    border: 1px solid green;
+    transition: width 2s;
+}
+
+div{
+  text-align: center;
+}
+
+nav{
+  text-align: center;
+}
+
+nav li{
+  display: inline-block;
+  transition: 0.5s ease;
+  font-size: 45px;
+}
+
+a{
+  color: gray;
+}
+
+button{
+  background-color: blue;
+  color: white;
+}
