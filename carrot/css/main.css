@@ -1,0 +1,90 @@
+  .header ul {
+    list-style-type: none;
+      text-align: center;
+      background-color: orange;
+      color: white;
+}
+
+.header li{
+  display: inline-block;
+  vertical-align: baseline !important;
+  font-size: 20px !important;
+  padding: 5px 55px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+.header{
+  background-color: orange;
+  width: 100%;
+}
+
+.carrot{
+  width: 30%;
+  display: inline-block;
+  color: white;
+  font-size: 25px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+
+}
+
+.links{
+  width: 69%;
+  display: inline-block;
+}
+
+div.search{
+  float: right;
+}
+
+.wrapper{
+  margin-bottom: 40px;
+}
+
+.image{
+  width: 45%;
+  float: left;
+  min-height: 50px;
+}
+
+div.main{
+  float: right;
+  /* width: 300px; */
+  max-width: 50%;
+  color: #FFAD42;
+  font-size: 25px;
+}
+
+.buttons a {
+  padding: 19px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+ border-radius: 4px;
+}
+
+.buttons a.quote {
+  background-color: #65C57E;
+  }
+
+.buttons a.studies{
+  background-color: #F9B046;
+}
+
+.footer ul{
+  list-style-type: none;
+}
+
+.footer{
+  clear: both;
+  text-align: center;
+  padding-top: 40px;
+  background-color: #65C57E;
+}
+
+.footer ul li{
+  display: inline;
+  padding: 5px 25px;
+  font-size: 25px;
+  color: white;
+
+}
