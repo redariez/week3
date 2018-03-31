@@ -1,0 +1,115 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: #FFAD42;
+  padding: 10px 5px;
+}
+nav div {
+  display: inline-block;
+  /* width: 50%;  */
+}
+nav ul{
+  padding-left: 0;
+  padding-right: 15px;
+}
+nav img {
+  width: 50px;
+}
+span {
+  font-weight: bold;
+}
+nav #navright {
+  width: 70%;
+  text-align: right;
+}
+nav #navleft {
+  width: 30%;
+}
+nav #navleft a{
+  margin: 0 45px;
+  font-size: 26px;
+}
+nav ul li {
+  display:inline-block;
+  margin: 0 18px;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+div#search {
+  text-align: right;
+}
+#search i {
+  position: relative;
+  right: -180px;
+  color: #C5C5C7;
+}
+#search input {
+  padding: 15px;
+  background-color: #F0F0EF;
+  border: none;
+  margin-right: 35px;
+  margin-top: 10px;
+}
+#left, #right {
+  display: inline-block;
+  width: 50%;
+}
+#left img {
+  width: 60%
+}
+#right h5 {
+  margin: 0 15px;
+  font-weight: 400;
+  font-size: 35px;
+}
+h5{
+  color:#FFAD42;
+}
+#right div{
+  text-align: center;
+  padding :45px 0;
+}
+#right span{
+  color: #FFAD42;
+}
+#right span.green{
+  color: #65C57E;
+}
+button {
+  background-color: #65C57E;
+  color: #fff;
+  border: none;
+  padding: 15px 20px;
+  width: 42%;
+  margin: 0 3%;
+}
+button.green{
+  background-color: #FFAD42;
+}
+footer{
+  background-color: #65C57E;
+  height: 150px;
+}
+footer{
+  background-color: #65C57E;
+  height: 150px;
+  clear: both;
+  text-align: center;
+  padding-top: 40px;
+  position: absolute;
+  width: 100%;
+}
+footer ul{
+  list-style-type: none;
+}
+footer ul li{
+  display: inline;
+  padding: 5px 25px;
+  font-size: 35px;
+  color: white;
+}
